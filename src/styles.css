@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  border: 1px solid green;
+  padding: 5px;
+  width: 45%;
+  margin: 5px;
+  float: left;
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    border: 1px solid yellow;
+    padding: 10px;
+    width: 100%;
+  }
+}
